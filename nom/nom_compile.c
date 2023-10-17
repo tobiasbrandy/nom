@@ -353,7 +353,6 @@ static bool internal_nom_walkable_build_compile_object(const char *path, NomFile
 
 bool nom_build_compilation_database(const NomCompileConfig *config) {
     const char *src_dir = config->src_dir;
-    // TODO: Support absolute paths
     NOM_ASSERT(*src_dir != '/' && "we don't support absolute paths for now");
 
     char *cwd = nom_get_cwd();
