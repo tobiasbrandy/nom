@@ -1,5 +1,5 @@
 #define NOB_IMPLEMENTATION
-#include "nom/nom.h"
+#include "nom.h"
 
 #include <string.h>
 
